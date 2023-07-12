@@ -81,6 +81,17 @@
   margin-right: 205px;
 
 }
+
+@media (max-width:500px){
+  .about-section__content{
+    text-align: center;
+  }
+
+  .about-section__heading,.about-section__pseudoheading{
+    margin: 10px auto;
+  }
+  
+}
 .slider-title.tp-caption.tp-resizeme .ar,.slider-title.tp-caption.tp-resizeme .ar span{
   font-size:60px !important;
   line-height:75px !important;
