@@ -1201,7 +1201,7 @@ textarea.custom-input {
   padding: 7px 0 11px 15px;
 }
 
-.logo::before {
+/* .logo::before {
   content: "";
   position: absolute;
   top: 20px;
@@ -1210,7 +1210,7 @@ textarea.custom-input {
   height: 70%;
   border: solid 2px #fbc710;
   border-right: none;
-}
+} */
 
 .logo::after {
   content: "";
@@ -2168,7 +2168,7 @@ textarea.custom-input {
 @media (min-width: 1560px) {
   .header__inner {
     position: relative;
-    padding: 30px 15px;
+    padding: 50px 15px;
   }
 }
 
@@ -7342,7 +7342,7 @@ textarea.custom-input {
 
 @media (min-width: 1920px) {
   .main-slider {
-    max-width: calc(100vw - 120px);
+    max-width: 100%;
   }
 }
 
