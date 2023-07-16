@@ -5764,7 +5764,7 @@ textarea.custom-input {
 
 @media (min-width: 1920px) {
   .post-sb-page__main-pic {
-    max-width: calc(100vw - 120px);
+    max-width: 100%
   }
 }
 
