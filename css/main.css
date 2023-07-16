@@ -1204,10 +1204,10 @@ textarea.custom-input {
 .logo::before {
   content: "";
   position: absolute;
-  top: 25px;
+  top: 20px;
   left: 0;
   width: 40px;
-  height: 73%;
+  height: 70%;
   border: solid 2px #fbc710;
   border-right: none;
 }
@@ -1361,7 +1361,7 @@ textarea.custom-input {
 }
 
 .social__item + .social__item {
-  margin-left: 28px;
+  margin-left: 15px;
 }
 
 .social__link {
@@ -2168,7 +2168,7 @@ textarea.custom-input {
 @media (min-width: 1560px) {
   .header__inner {
     position: relative;
-    padding: 55px 15px;
+    padding: 30px 15px;
   }
 }
 
@@ -7056,7 +7056,7 @@ textarea.custom-input {
 }
 
 .contact-block__item + .contact-block__item {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 /* 4.27 Block in About page */
