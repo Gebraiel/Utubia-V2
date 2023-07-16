@@ -71,6 +71,58 @@
   1. Global
 -------------------------------------------------------------------------------*/
 /* 1.1 General */
+.main-flex{
+  display: flex;
+  flex-direction: row;
+}
+main .back{
+  width:25%;
+}
+.main-content{
+  width:50%;
+}
+.tp-rightarrow{
+  top:98% !important;
+}
+.tp-leftarrow{
+  top:98% !important;
+}
+.back{
+  background-image: url(../img/back.png);
+}
+.content{
+  text-align: center;
+  background-image: url(../img/a-1-overlay.png);
+  height:300px;
+  max-width:100%;
+  color:white;
+  padding:1% 1% 2%;
+}
+.content h2{
+  font-size: 28px;  
+}
+.content p{
+  color:white;
+  font-size: 15px !important;
+}
+@media (min-width: 992px)
+{
+  .content{
+  text-align: center;
+  background-image: url(../img/a-1-overlay.png);
+  height:300px;
+  max-width:100%;
+  padding:2%;
+  }
+  .content p{
+    color:white;
+    font-size: 18px !important;
+  }
+
+  .content h2{
+    font-size: 36px;  
+  }
+}
 
 .ar{
   font-family: Noto Kufi Arabic !important;
@@ -5110,7 +5162,7 @@ textarea.custom-input {
 
 @media (min-width: 768px) {
   .services-provided__column-text {
-    max-width: 272px;
+    max-width: 100%;
   }
 }
 
@@ -7121,7 +7173,7 @@ textarea.custom-input {
   }
 }
 
-.about-block__heading::before {
+/* .about-block__heading::before {
   content: "";
   position: absolute;
   left: -15px;
@@ -7129,7 +7181,7 @@ textarea.custom-input {
   width: 45px;
   border-top: solid 2px #fbc710;
   transform: translateX(-100%);
-}
+} */
 
 @media (min-width: 768px) {
   .about-block__heading::before {
