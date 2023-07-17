@@ -54,7 +54,8 @@ $(window).on('load', function() {
 			loadingParentElement: 'body', //animsition wrapper element
 			loadingClass: 'preloader',//'animsition-loading',
 			loadingInner: `<div class="preloader__spinner">
-				<img src="img/images/fa.png">
+				<span class="preloader__double-bounce"></span>
+				<span class="preloader__double-bounce preloader__double-bounce--delay"></span>
 			</div>`, // e.g '<img src="loading.svg" />
 			timeout: false,
 			timeoutCountdown: 5000,
