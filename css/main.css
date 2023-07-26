@@ -1516,7 +1516,7 @@ textarea.custom-input {
 }
 
 .social__item + .social__item {
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .social__link {
@@ -1524,6 +1524,11 @@ textarea.custom-input {
   width: 17px;
   height: 17px;
   justify-content: center;
+  color:#000000;
+  transition: color 0.3s ease;
+}
+.social__link:hover{
+  color:#c9b851
 }
 
 .social__link svg {
@@ -7197,7 +7202,9 @@ textarea.custom-input {
     margin-right: 8px;
   }
 }
-
+.contact-block__item-val .footer__social{
+  margin-top:0px;
+}
 .contact-block__item-val a {
   color: #787878;
   transition: color 0.3s ease;
