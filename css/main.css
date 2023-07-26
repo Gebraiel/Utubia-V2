@@ -306,12 +306,14 @@ ul.process__steps::before{
   .parent{
     flex-direction: column;
     align-items: center;
-    
   }
   .child{
     width: 100%;
     padding:10px 22px;
     align-items: flex-start;
+  }
+  .hidden{
+    display: none;
   }
   .child h3{
     width:135px;
