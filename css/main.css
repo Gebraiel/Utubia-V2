@@ -71,6 +71,131 @@
   1. Global
 -------------------------------------------------------------------------------*/
 /* 1.1 General */
+.chart{
+  display:flex;
+  width:650px;
+  height:290px;
+  justify-content: space-between;
+  align-items: end;
+  margin:auto;
+  margin-bottom: 50px;
+}
+@media(max-width:768px){
+  .chart{
+    width:540px
+  }
+}
+@media (max-width:650px){
+  .chart{
+  display:flex;
+  width:150px;
+  height:550px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin:auto;
+  }
+}
+.bar{
+  width:150px;
+  margin-bottom:50px;
+}
+.bar:nth-child(1){
+  height:33px;
+  position: relative;
+  /* left:0; */
+}
+.text{
+
+  font-size: 12px;
+  font-family: "Noto Kufi Arabic",sans-serif;
+  text-align: center;
+}
+
+.bar:nth-child(1)::after{
+  content:"3300"; 
+  position:absolute;
+  top:-180%;
+  left:30%; 
+  padding:10px;
+  color:#666;
+  background-color:#c9b851;
+  transition: 1s;
+  opacity: 0;
+}
+.bar:nth-child(1):hover::after{
+  opacity:1
+}
+.bar:nth-child(2){
+  height:60px;
+  position: relative;
+  /* left:25%; */
+}
+
+.bar:nth-child(2)::after{
+  content:"6000";
+  position:absolute;
+  top:-105%;
+  left:30%; 
+  padding:10px;
+  color:#666;
+  background-color:#c9b851;
+  transition: 1s;
+  opacity: 0;
+
+}
+.bar:nth-child(2):hover::after{
+  opacity:1
+}
+.bar:nth-child(3){
+  height:180px;
+  position: relative;
+  /* left:50%; */
+}
+
+.bar:nth-child(3)::after{
+  content:"18000";
+  position:absolute;
+  opacity:0;
+  top:-35%;
+  left:30%; 
+  padding:10px;
+  color:#666;
+  background-color:#c9b851;
+  transition: 1s;
+  transition-timing-function: ease-in;
+}
+.bar:nth-child(3):hover::after{
+  opacity:1
+}
+.bar .rect{
+  width:50px;
+  height:100%;
+  opacity:0;
+  margin:auto;
+  background-color:#c9b851;
+  transform-origin: 0% 100%;
+  animation: example 2s ease-in-out forwards;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+.bar:nth-child(2) .rect{
+  animation-delay: 0.5s;
+}
+.bar:nth-child(3) .rect{
+  animation-delay: 0.7s;
+}
+@keyframes example {
+  0%{
+      transform: scaleY(0);
+      opacity:0;
+  }
+  100%{
+      transform: scaleY(1);
+      opacity: 1;
+  }
+}
 h3.fade{
   opacity: 0;
   animation-name:fade;
