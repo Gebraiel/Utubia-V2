@@ -1061,10 +1061,17 @@ textarea.custom-input {
   text-transform: uppercase;
   text-align: center;
   font-weight: 500;
-  border: solid 1px #c9b851;
   background-color: #c9b851;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.4s ease-in-out;
+
+}
+
+.btn:hover, .btn:focus {
+  outline: none;
+  background-color: black;
+  color: white;
+  box-shadow: none;
 }
 
 @media (min-width: 768px) {
@@ -1073,12 +1080,6 @@ textarea.custom-input {
   }
 }
 
-.btn:hover, .btn:focus {
-  outline: none;
-  background-color: #eeba04;
-  color: white;
-  box-shadow: none;
-}
 
 .btn:active {
   opacity: 0.7;
@@ -1740,9 +1741,11 @@ textarea.custom-input {
 
 .play-btn:hover, .play-btn:focus {
   outline: none;
-  background-color: #eeba04;
+  background-color: black;
 }
-
+.play-btn:hover .play-btn__icon{
+  fill:white;
+}
 .play-btn__icon {
   position: absolute;
   top: 50%;
@@ -7719,7 +7722,15 @@ textarea.custom-input {
 .main-slider .tp-rightarrow::before {
   content: "next";
 }
-
+@media (min-width: 2000px)
+{
+  .tp-rightarrow{
+    transform:matrix(1, 0, 0, 1, 1210, -100) !important;
+  }
+  .tp-leftarrow{
+    transform:matrix(1, 0, 0, 1, 1100, -100) !important
+  }
+}
 @media (min-width: 768px) {
   .main-slider {
     height: calc(100vh - 110px);
