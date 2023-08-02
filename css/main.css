@@ -557,7 +557,7 @@ main {
   z-index: 1;
   flex-grow: 1;
   border-bottom: solid 1px transparent;
-  background-color: #ffffff;
+  background-color: #161616;
 }
 
 a {
@@ -625,7 +625,7 @@ a:hover, a:focus {
   display: block;
   position: relative;
   padding: 15px 25px 15px 45px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid white;
   box-sizing: border-box;
 }
 
@@ -656,7 +656,7 @@ a:hover, a:focus {
 
 .label-subs label input::placeholder {
   opacity: 0.5;
-  color: #000000;
+  color: white;
 }
 
 .label-subs label input:focus::placeholder {
@@ -679,7 +679,7 @@ a:hover, a:focus {
 }
 
 .custom-input:focus {
-  border-color: #000000;
+  border-color: white;
 }
 
 .custom-input:focus::placeholder {
@@ -698,7 +698,7 @@ input[type="search"] {
 }
 
 input[type="search"]:hover, input[type="search"]:focus {
-  border-color: #000000;
+  border-color: white;
 }
 
 input[type="search"]::placeholder {
@@ -763,7 +763,7 @@ textarea.custom-input {
 .arrow-square svg {
   width: 50%;
   height: 50%;
-  fill: #000000;
+  fill: white;
   transition: fill 0.3s ease;
 }
 
@@ -1057,7 +1057,7 @@ textarea.custom-input {
   padding: 17px 20px;
   font-size: 16px;
   line-height: 1;
-  color: #000000;
+  color: white;
   text-transform: uppercase;
   text-align: center;
   font-weight: 500;
@@ -1076,7 +1076,7 @@ textarea.custom-input {
 .btn:hover, .btn:focus {
   outline: none;
   background-color: #eeba04;
-  color: #000000;
+  color: white;
   box-shadow: none;
 }
 
@@ -1130,15 +1130,15 @@ textarea.custom-input {
 .field input:focus,
 .field textarea:focus {
   outline: none;
-  border-color: #000000;
-  color: #000000;
+  border-color: white;
+  color: white;
 }
 
 @media (min-width: 992px) {
   .field input:hover, .field input:focus,
   .field textarea:hover,
   .field textarea:focus {
-    border-color: #000000;
+    border-color: white;
   }
 }
 
@@ -1160,7 +1160,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 32px;
   line-height: 1.25;
-  color: #000000;
+  color: white;
   font-weight: 700;
 }
 
@@ -1232,7 +1232,7 @@ textarea.custom-input {
   position: absolute;
   left: 0;
   width: 100%;
-  border-top: solid 3px #000000;
+  border-top: solid 3px white;
   transition: border-top-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -1374,7 +1374,7 @@ textarea.custom-input {
 .navigation__dropdown-item a {
   font-size: 14px;
   line-height: 1;
-  color: #000000;
+  color: white;
   letter-spacing: 0.015em;
   transition: color 0.3s ease;
 }
@@ -1445,7 +1445,7 @@ textarea.custom-input {
 .navigation__link {
   font-size: 24px;
   line-height: 1;
-  color: #000000;
+  color: white;
   font-weight: 600;
   transition: color 0.3s ease;
 }
@@ -1560,7 +1560,7 @@ textarea.custom-input {
   display: block;
   font-size: 28px;
   line-height: 1.21;
-  color: #000000;
+  color: white;
   font-family: "Gilroy", "Arial", sans-serif;
   font-weight: 700;
 }
@@ -1569,7 +1569,7 @@ textarea.custom-input {
   display: block;
   font-size: 11px;
   line-height: 1.18;
-  color: #000000;
+  color: white;
   opacity: 0.6;
 }
 
@@ -1667,7 +1667,7 @@ textarea.custom-input {
   width: 17px;
   height: 17px;
   justify-content: center;
-  color:#000000;
+  color:white;
   transition: color 0.3s ease;
 }
 .social__link:hover{
@@ -1677,7 +1677,7 @@ textarea.custom-input {
 .social__link svg {
   display: block;
   align-self: center;
-  fill: #000000;
+  fill: white;
   transition: fill 0.3s ease;
 }
 
@@ -1714,11 +1714,11 @@ textarea.custom-input {
 
 .more:hover, .more:focus {
   outline: none;
-  color: #000000;
+  color: white;
 }
 
 .more:hover svg, .more:focus svg {
-  fill: #000000;
+  fill: white;
 }
 
 .more:active {
@@ -1758,7 +1758,7 @@ textarea.custom-input {
   font-family: "Poppins", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.3125;
-  color: #000000;
+  color: white;
   font-weight: 600;
   text-transform: capitalize;
   background-color: transparent;
@@ -1810,7 +1810,7 @@ textarea.custom-input {
   justify-content: center;
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #161616;
 }
 
 .preloader__text {
@@ -1853,7 +1853,7 @@ textarea.custom-input {
 
 /* 1.16 Webpage */
 .webpage {
-  background-color: #ffffff;
+  background-color: #161616;
 }
 
 .webpage--parallax .header {
@@ -1869,35 +1869,35 @@ textarea.custom-input {
 }
 
 .webpage--parallax-dark .header .social__link svg {
-  fill: #000000;
+  fill: white;
 }
 
 .webpage--parallax-dark .header .logo__large,
 .webpage--parallax-dark .header .logo__small,
 .webpage--parallax-dark .header .navigation__link {
-  color: #000000;
+  color: white;
 }
 
 .webpage--parallax-dark .header .menu-toggle::before,
 .webpage--parallax-dark .header .menu-toggle::after {
-  border-color: #000000;
+  border-color: white;
 }
 
 .webpage--parallax-dark .parallax {
-  color: #000000;
+  color: white;
 }
 
 .webpage--parallax-dark .parallax__link {
-  color: #000000;
+  color: white;
 }
 
 .webpage--parallax-dark .parallax__link svg {
-  fill: #000000;
+  fill: white;
 }
 
 .webpage--parallax-dark .footer .footer__copy,
 .webpage--parallax-dark .footer .lang-switcher__link {
-  color: #000000;
+  color: white;
 }
 
 .webpage--parallax-dark .footer .lang-switcher__link--current {
@@ -1909,7 +1909,7 @@ textarea.custom-input {
 }
 
 .webpage--parallax-dark #pp-nav ul li a span {
-  background-color: #000000;
+  background-color: white;
 }
 
 .webpage--parallax-dark #pp-nav ul li a.active span {
@@ -1995,7 +1995,7 @@ textarea.custom-input {
 .lang-switcher__link {
   font-size: 14px;
   line-height: 1.625;
-  color: #000000;
+  color: white;
   text-transform: uppercase;
   transition: color 0.3s ease;
 }
@@ -2149,7 +2149,7 @@ textarea.custom-input {
 }
 
 .mobile-canvas__copy span {
-  color: #000000;
+  color: white;
 }
 
 .mobile-canvas__phone {
@@ -2161,7 +2161,7 @@ textarea.custom-input {
     display: inline;
     font-size: 16px;
     line-height: 1.25;
-    color: #000000;
+    color: white;
     font-weight: 600;
     transition: color 0.3s ease;
   }
@@ -2195,7 +2195,7 @@ textarea.custom-input {
 }
 
 .mobile-canvas__item--current .mobile-canvas__link {
-  color: #000000;
+  color: white;
 }
 
 .mobile-canvas__link {
@@ -2214,7 +2214,7 @@ textarea.custom-input {
 
 .mobile-canvas__link:hover, .mobile-canvas__link:focus {
   outline: none;
-  color: #000000;
+  color: white;
 }
 
 .mobile-canvas__link:active {
@@ -2250,7 +2250,7 @@ textarea.custom-input {
 }
 
 .mobile-canvas__close svg {
-  fill: #000000;
+  fill: white;
   align-self: center;
   transition: fill 0.3s ease;
 }
@@ -2277,7 +2277,7 @@ textarea.custom-input {
 .header {
   position: relative;
   z-index: 2;
-  background-color: #ffffff;
+  background-color: #161616;
 }
 
 .header--white {
@@ -2380,17 +2380,17 @@ textarea.custom-input {
 
 .header--fixed .logo__large {
   font-size: 20px;
-  color: #000000;
+  color: white;
 }
 
 .header--fixed .logo__small {
   font-size: 9px;
-  color: #000000;
+  color: white;
 }
 
 @media (min-width: 992px) {
   .header--fixed .social__link svg {
-    fill: #000000;
+    fill: white;
   }
   .header--fixed .social__link:focus svg {
     fill: #c9b851;
@@ -2422,7 +2422,7 @@ textarea.custom-input {
 }
 
 .header--fixed .navigation__link {
-  color: #000000;
+  color: white;
 }
 
 .header--fixed .navigation__link:hover, .header--fixed .navigation__link:focus {
@@ -2440,7 +2440,7 @@ textarea.custom-input {
 }
 
 .header--fixed .menu-toggle::before, .header--fixed .menu-toggle::after {
-  border-top: solid 3px #000000;
+  border-top: solid 3px white;
 }
 
 .header--bg {
@@ -2460,6 +2460,7 @@ textarea.custom-input {
   max-width: 1830px;
   margin: 0 auto;
   padding: 15px;
+  background-color: #161616;
 }
 
 @media (min-width: 768px) {
@@ -2522,7 +2523,7 @@ textarea.custom-input {
     flex-shrink: 0;
     font-size: 16px;
     line-height: 1.25;
-    color: #000000;
+    color: white;
     font-weight: 600;
     transition: color 0.3s ease;
   }
@@ -2705,7 +2706,7 @@ textarea.custom-input {
   left: 15px;
   top: 0;
   width: calc(100% - 30px);
-  border-top: solid 1px #a6a6a6;
+  border-top: solid 1px #161616;
 }
 
 @media (min-width: 768px) {
@@ -2747,11 +2748,11 @@ textarea.custom-input {
   margin-bottom: 12px;
   font-size: 16px;
   line-height: 1.625;
-  color: #000000;
+  color: white;
 }
 
 .footer__copyright span {
-  color: #000000;
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -2789,7 +2790,7 @@ textarea.custom-input {
 .footer__column-link {
   font-size: 16px;
   line-height: 1.625;
-  color: #000000;
+  color: white;
   transition: color 0.3s ease;
 }
 
@@ -2895,7 +2896,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 65px;
   line-height: 65px;
-  color: #000000;
+  color: white;
   font-weight: bold;
   margin-bottom: 30px;
 }
@@ -2912,7 +2913,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
-  color: #000000;
+  color: white;
   font-weight: bold;
   margin-bottom: 36px;
 }
@@ -2945,12 +2946,12 @@ textarea.custom-input {
 
 .page-404__text a:focus {
   outline: none;
-  color: #000000;
+  color: white;
 }
 
 @media (min-width: 992px) {
   .page-404__text a:hover, .page-404__text a:focus {
-    color: #000000;
+    color: white;
   }
 }
 
@@ -3132,13 +3133,13 @@ textarea.custom-input {
   transition: color 0.3s ease;
   font-size: 20px;
   line-height: 1.15;
-  color: #000000;
+  color: white;
   font-weight: 600;
 }
 
 .link-arrow svg {
   margin-left: 16px;
-  fill: #000000;
+  fill: white;
   transition: fill 0.3s ease;
 }
 
@@ -3190,7 +3191,7 @@ textarea.custom-input {
   line-height: 1;
   color: #787878;
   font-weight: 700;
-  color: #000000 !important;
+  color: white !important;
   transition: color 0.3s ease;
 }
 
@@ -3218,7 +3219,7 @@ textarea.custom-input {
   line-height: 1.625;
   color: #787878;
   font-weight: 600;
-  color: #000000 !important;
+  color: white !important;
   transition: color 0.3s ease;
 }
 
@@ -3295,7 +3296,7 @@ textarea.custom-input {
 }
 
 .card--team .social__link svg {
-  fill: #000000;
+  fill: white;
 }
 
 .card--team .social__link:focus svg {
@@ -3404,14 +3405,14 @@ textarea.custom-input {
 }
 
 .card:hover .card__tag, .card:focus .card__tag, .card--active .card__tag {
-  color: #000000;
+  color: white;
   transform: translateY(0);
   transition: transform 0.5s ease;
 }
 
 .card:hover .card__heading, .card:focus .card__heading, .card--active .card__heading {
   position: static;
-  color: #000000;
+  color: white;
   transform: translateY(0);
   transition: transform 0.5s ease;
 }
@@ -3437,7 +3438,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 25px;
   line-height: 1.2;
-  color: #000000;
+  color: white;
   font-weight: 700;
   text-transform: uppercase;
   transition: color 0.3s ease;
@@ -3474,7 +3475,7 @@ textarea.custom-input {
 .card__date {
   font-size: 16px;
   line-height: 26px;
-  color: #000000;
+  color: white;
   margin-bottom: 16px;
 }
 
@@ -3514,7 +3515,7 @@ textarea.custom-input {
   transform: translateY(-20px);
   font-size: 16px;
   line-height: 1.3125;
-  color: #000000;
+  color: white;
 }
 
 .card__text br {
@@ -3538,7 +3539,7 @@ textarea.custom-input {
   align-items: center;
   font-size: 20px;
   line-height: 1.15;
-  color: #000000;
+  color: white;
   font-weight: 700;
 }
 
@@ -3621,7 +3622,7 @@ textarea.custom-input {
   left: unset;
   bottom: unset;
   transform: none;
-  color: #000000;
+  color: white;
   visibility: visible;
 }
 
@@ -3759,12 +3760,12 @@ textarea.custom-input {
 }
 
 .card--news-masonry .card__link {
-  color: #000000;
+  color: white;
   transition: color 0.3s ease;
 }
 
 .card--news-masonry .card__link svg {
-  fill: #000000;
+  fill: white;
   transition: fill 0.3s ease;
 }
 
@@ -3807,7 +3808,7 @@ textarea.custom-input {
   margin-bottom: 20px;
   font-size: 25px;
   line-height: 1.2;
-  color: #000000;
+  color: white;
   font-family: "Gilroy", "Arial", sans-serif;
   font-weight: 700;
 }
@@ -3816,7 +3817,7 @@ textarea.custom-input {
   margin-bottom: 32px;
   font-size: 16px;
   line-height: 1.17;
-  color: #000000;
+  color: white;
 }
 
 .review-card__post span {
@@ -3920,7 +3921,7 @@ textarea.custom-input {
   margin: 0 0 16px;
   font-size: 25px;
   line-height: 1.4;
-  color: #000000;
+  color: white;
   font-family: "Gilroy", "Arial", sans-serif;
   font-weight: 700;
 }
@@ -3954,7 +3955,7 @@ textarea.custom-input {
   margin-top: 20px;
   font-size: 16px;
   line-height: 1.5;
-  color: #000000;
+  color: white;
   font-weight: 600;
   transition: color 0.3s ease;
   align-self: flex-start;
@@ -4063,7 +4064,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-weight: 400;
   font-style: italic;
-  color: #000000;
+  color: white;
 }
 
 @media (min-width: 992px) {
@@ -4364,12 +4365,12 @@ textarea.custom-input {
 
 .services-section__link:focus {
   outline: none;
-  color: #000000;
+  color: white;
 }
 
 @media (min-width: 992px) {
   .services-section__link:hover, .services-section__link:focus {
-    color: #000000;
+    color: white;
   }
 }
 
@@ -4445,7 +4446,7 @@ textarea.custom-input {
 .statistics__item-text {
   font-size: 16px;
   line-height: 1.3125;
-  color: #000000;
+  color: white;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -5105,7 +5106,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1;
-  color: #000000;
+  color: white;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -5142,7 +5143,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 25px;
   line-height: 2;
-  color: #000000;
+  color: white;
 }
 
 @media (min-width: 1200px) {
@@ -5209,7 +5210,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 36px;
   line-height: 1;
-  color: #000000;
+  color: #c9b851;
   font-weight: 700;
 }
 
@@ -5236,7 +5237,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 25px;
   line-height: 1;
-  color: #000000;
+  color: white;
   font-weight: 700;
 }
 
@@ -5411,7 +5412,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 25px;
   line-height: 1;
-  color: #000000;
+  color: white;
   font-weight: 700;
 }
 
@@ -5425,7 +5426,9 @@ textarea.custom-input {
   height: 60px;
   margin-bottom: 20px;
 }
-
+.services-provided__icon svg{
+  fill:#c9b851;
+}
 @media (min-width: 768px) {
   .services-provided__icon {
     margin-bottom: 40px;
@@ -5438,7 +5441,7 @@ textarea.custom-input {
   margin-top: 32px;
   font-size: 20px;
   line-height: 1.15;
-  color: #000000;
+  color: white;
   font-weight: 600;
   transition: color 0.3s ease;
 }
@@ -5511,7 +5514,7 @@ textarea.custom-input {
 
 /* 4.20 Services section */
 .services {
-  color: #000000;
+  color: white;
 }
 
 .services__wrapper {
@@ -5828,7 +5831,7 @@ textarea.custom-input {
   font-size: 18px;
   line-height: 21.76px;
   font-weight: bold;
-  color: #000000;
+  color: white;
   margin: 0;
   margin-bottom: 30px;
 }
@@ -5900,7 +5903,7 @@ textarea.custom-input {
   font-size: 14px;
   line-height: 20px;
   font-weight: bold;
-  color: #000000;
+  color: white;
   transition: color 0.3s ease;
 }
 
@@ -5957,7 +5960,7 @@ textarea.custom-input {
   border: 1px solid #d3d3d3;
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 12px;
-  color: #000000;
+  color: white;
   text-transform: uppercase;
   transition: all 0.3s ease;
 }
@@ -6219,7 +6222,7 @@ textarea.custom-input {
 }
 
 .post-sb__date .author {
-  color: #000000;
+  color: white;
 }
 
 .post-sb__title {
@@ -6227,7 +6230,7 @@ textarea.custom-input {
   font-size: 26px;
   line-height: 32px;
   font-weight: bold;
-  color: #000000;
+  color: white;
   margin-bottom: 35px;
 }
 
@@ -6240,7 +6243,7 @@ textarea.custom-input {
 }
 
 .post-sb__title a {
-  color: #000000;
+  color: white;
   text-decoration: underline;
 }
 
@@ -6255,7 +6258,7 @@ textarea.custom-input {
   font-size: 23px;
   line-height: 30px;
   font-weight: bold;
-  color: #000000;
+  color: white;
   margin-bottom: 18px;
 }
 
@@ -6411,7 +6414,7 @@ textarea.custom-input {
 }
 
 .post-sb__tags span {
-  color: #000000;
+  color: white;
 }
 
 .post-sb__socials {
@@ -6424,7 +6427,7 @@ textarea.custom-input {
   margin-right: 20px;
   font-size: 16px;
   font-weight: bold;
-  color: #000000;
+  color: white;
 }
 
 .post-sb__social .social__item + .social__item {
@@ -6548,7 +6551,7 @@ textarea.custom-input {
   font-size: 26px;
   line-height: 32px;
   font-weight: bold;
-  color: #000000;
+  color: white;
 }
 
 @media (min-width: 992px) {
@@ -6617,7 +6620,7 @@ textarea.custom-input {
   font-size: 24px;
   line-height: 36px;
   font-weight: bold;
-  color: #000000;
+  color: white;
   margin-bottom: 30px;
 }
 
@@ -6693,7 +6696,7 @@ textarea.custom-input {
   font-size: 16px;
   line-height: 19.34px;
   font-weight: bold;
-  color: #000000;
+  color: white;
 }
 
 @media (min-width: 992px) {
@@ -6720,7 +6723,7 @@ textarea.custom-input {
   width: 68px;
   padding: 5px 13px;
   font-size: 12px;
-  color: #000000;
+  color: white;
   text-align: center;
   border: 1px solid #d3d3d3;
   background-color: #ffffff;
@@ -6770,7 +6773,7 @@ textarea.custom-input {
   font-size: 24px;
   line-height: 36px;
   font-weight: bold;
-  color: #000000;
+  color: white;
   margin-bottom: 30px;
 }
 
@@ -6799,12 +6802,12 @@ textarea.custom-input {
 .comment-form textarea::placeholder {
   font-size: 16px;
   opacity: 0.5;
-  color: #000000;
+  color: white;
 }
 
 .comment-form input:focus,
 .comment-form textarea:focus {
-  border-color: #000000;
+  border-color: white;
 }
 
 .comment-form input:focus::placeholder,
@@ -6903,7 +6906,7 @@ textarea.custom-input {
   font-size: 18px;
   line-height: 30px;
   font-weight: 600;
-  color: #000000;
+  color: white;
   margin: 0 0 28px;
 }
 
@@ -6929,7 +6932,7 @@ textarea.custom-input {
 }
 
 .quote__name {
-  color: #000000;
+  color: white;
   font-weight: 700;
 }
 
@@ -6974,7 +6977,7 @@ textarea.custom-input {
 @media (min-width: 768px) {
   .service-card--reverse .service-card__detail {
     border-right: none;
-    border-left: solid 4px #ffffff;
+    border-left: solid 4px #161616;
   }
 }
 
@@ -7015,7 +7018,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 48px;
   line-height: 1;
-  color: #dcdcdc;
+  color: #c9b851;
   font-weight: 700;
   transform: rotate(-90deg);
   transform-origin: 33% 50%;
@@ -7109,9 +7112,9 @@ textarea.custom-input {
     left: 0;
     bottom: 0;
     padding: 24px;
-    border-top: solid 4px #ffffff;
-    border-right: solid 4px #ffffff;
-    background-color: #ffffff;
+    border-top: solid 4px #161616;
+    border-right: solid 4px #161616;
+    background-color: #161616;
     transform: translateY(150px);
   }
 }
@@ -7137,7 +7140,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 25px;
   line-height: 1.4;
-  color: #000000;
+  color: white;
   font-weight: 700;
 }
 
@@ -7159,10 +7162,10 @@ textarea.custom-input {
 
 @media (min-width: 992px) {
   .service-card__link:hover, .service-card__link:focus {
-    color: #000000;
+    color: white;
   }
   .service-card__link:hover svg, .service-card__link:focus svg {
-    fill: #000000;
+    fill: white;
   }
 }
 
@@ -7209,7 +7212,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 25px;
   line-height: 1.4;
-  color: #000000;
+  color: white;
   font-weight: 700;
 }
 
@@ -7257,7 +7260,7 @@ textarea.custom-input {
 /* 4.26 Contact block */
 .contact-block {
   max-width: 496px;
-  background-color: #ffffff;
+  background-color: #161616;
 }
 
 @media (min-width: 992px) {
@@ -7271,7 +7274,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 32px;
   line-height: 1.4;
-  color: #000000;
+  color: white;
   font-weight: 700;
 }
 
@@ -7308,7 +7311,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 32px;
   line-height: 1.4;
-  color: #000000;
+  color: white;
   font-weight: 700;
   transition: color 0.3s ease;
 }
@@ -7334,7 +7337,7 @@ textarea.custom-input {
 
 .contact-block__item-hint {
   margin-bottom: 6px;
-  color: #000000;
+  color: white;
   font-weight: 700;
   flex-shrink: 0;
 }
@@ -7394,7 +7397,7 @@ textarea.custom-input {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 72px;
   line-height: 1;
-  color: #f2f2f2;
+  color: #c9b851;
   font-weight: 700;
 }
 
@@ -7665,7 +7668,7 @@ textarea.custom-input {
 
 .main-slider .tp-tabs {
   padding: 0 !important;
-  background-color: #ffffff !important;
+  background-color: #161616 !important;
 }
 
 .main-slider .tp-tab {
@@ -7681,7 +7684,7 @@ textarea.custom-input {
 }
 
 .main-slider .tp-tab.selected .slide-tab__title {
-  color: #000000 !important;
+  color: white !important;
 }
 
 .main-slider .tparrows {
@@ -7868,7 +7871,7 @@ textarea.custom-input {
 }
 
 .article__project-text strong {
-  color: #000000;
+  color: white;
   font-weight: 600;
 }
 
@@ -8543,7 +8546,7 @@ textarea.custom-input {
 }
 
 .services {
-  color: #000000;
+  color: white;
 }
 
 .services__wrapper {
