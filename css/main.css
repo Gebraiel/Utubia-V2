@@ -75,42 +75,38 @@
   font-family:"Poppins", "Arial", sans-serif !important;
   
 }
-.chart{
-  display:flex;
-  width:650px;
-  height:290px;
-  justify-content: space-between;
-  align-items: end;
+.links{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  grid-gap: 50px;
+  width: 60%;
   margin:auto;
-  margin-bottom: 50px;
 }
-@media(max-width:768px){
-  .chart{
-    width:540px
-  }
-}
-@media (max-width:650px){
-  .chart{
-  display:flex;
-  width:150px;
-  height:550px;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin:auto;
-  }
-}
-.bar{
-  width:150px;
-  margin-bottom:50px;
-}
-.bar:nth-child(1){
-  height:33px;
-  position: relative;
-  /* left:0; */
-}
-.text{
 
+@media (max-width:1200px) {
+  .links{
+    grid-template-columns: repeat(1,auto);
+    width: 40%;
+  }
+  
+}
+.links .card{
+width:100%;
+}
+
+.links .card .image{
+  width:100%;
+  border-radius: 10px;
+}
+.links .card .image img{
+  width:100%;
+  border-radius: 10px;
+}
+.links .card .text{
+text-align: center;
+}
+
+.text{
   font-size: 12px;
   font-family: "Noto Kufi Arabic",sans-serif;
   text-align: center;

@@ -5,25 +5,54 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <style>
-  .chart {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  height: 300px;
-  width: 100%;
-  background-color: #f0f0f0;
-  padding: 10px;
+  .links{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 25px;
+    width:50%;
+    margin:auto;
+  }
+.links .card{
+  width:100%;
+}
+.links .card .image{
+    width:100%;
 }
 
-.bar {
-  width: 20px;
-  background-color: #007bff; /* Change the bar color as needed */
-  margin-right: 10px;
+.links .card .text{
+  text-align: center;
 }
 
 </style>
 <body>
-  <div class="chart" id="chart">
+  <div class="links">
+    <div class="card">
+      <div class="image">
+        <img src="img/1.png">
+      </div>
+      <div class="text">
+        <h2>الاسم</h2>
+        <button>تحميل</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <img src="img/1.png">
+      </div>
+      <div class="text">
+        <h2>الاسم</h2>
+        <button>تحميل</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <img src="img/1.png">
+      </div>
+      <div class="text">
+        <h2>الاسم</h2>
+        <button>تحميل</button>
+      </div>
+    </div>
   </div>
 
   <script src="charts.js"></script>
